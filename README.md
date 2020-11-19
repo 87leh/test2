@@ -29,3 +29,8 @@
 ## rebase 작업
 1. fork한 원격 저장소에는 안 보인다.
 2. 원본저장소에 새로운 커밋이 있는데 fork한 원격 저장소에는 안 보인다!
+3. 소스트리에서 rebase 작업 시 오류 발생 (p.170)
+   - 소스트리 버전 업 이후 일부 윈도우 환경에서 발생되는 버그
+   - CLI (git bash) 로 rebase --continue
+     git rebase --continue
+
